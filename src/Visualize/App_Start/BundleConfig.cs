@@ -10,6 +10,12 @@ namespace Visualize
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
+            
+            bundles.Add(new ScriptBundle("~/bundles/d3").Include(
+                        "~/Scripts/d3.v3.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/visualize").Include(
+                        "~/Scripts/visualize.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));
